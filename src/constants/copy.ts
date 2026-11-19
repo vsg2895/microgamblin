@@ -226,7 +226,13 @@ export const COPY = {
     // address in the footer is what mailbox providers and the gambling
     // affiliate compliance checks both look for, and it must match the address
     // used in the email templates.
-    postalAddress: '14 Maple Close, Bristol, BS7 8QR, United Kingdom',
+    // Supplied 2026-11-18, replacing the address this site INHERITED from
+    // betpulsehq when it was cloned — three sibling domains were publishing
+    // one operator's address, which is a compliance problem rather than a
+    // cosmetic one. Must stay identical to this site's `registered_address`
+    // in the admin (Sites -> Edit -> Legal identity), which is what the legal
+    // pages and the email templates print.
+    postalAddress: '42 Elmwood Drive, Plymouth, PL3 5RT, United Kingdom',
     disclaimer:
       'Gambling is for adults aged 18 or over and carries real financial risk. Set deposit limits, never chase losses, and only stake what you can afford to lose.',
   },
